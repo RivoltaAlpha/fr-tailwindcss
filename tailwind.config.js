@@ -8,6 +8,7 @@ export default {
     colors: {
       'primary': 'hsl(256, 26%, 20%)',
       'secondary': '#E5E7EB',
+      'font-family': 'Arial, Helvetica, sans-serif',
     },
   },
   plugins: [],
