@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import Header from './components/header/header';
 import Hero from './components/intro/intro';
 import Features from './components/body/features';
@@ -12,7 +12,7 @@ const App= () => {
   const [age, setAge] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
-//step 3 applies here
+//step 3 of userContext applies here
   return (
     <UserContext.Provider value={{ name, setName, age, setAge, email, setEmail, phone, setPhone }}>
       <div className="min-h-screen flex flex-col">
