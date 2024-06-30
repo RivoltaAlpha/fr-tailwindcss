@@ -1,5 +1,7 @@
 import { createContext } from 'react';
 
+
+//typing the userContext
 interface UserContextType {
   name: string;
   setName: (name: string) => void;
@@ -10,7 +12,9 @@ interface UserContextType {
   phone: string;
   setPhone: (phone: string) => void;
 }
-
+//1) creating the user context
+//2)follow up by creating the provider and give it an object
+//3)use the
 export const UserContext = createContext<UserContextType>({
   name: '',
   setName: () => {},
