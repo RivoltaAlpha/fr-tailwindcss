@@ -14,7 +14,7 @@ interface UserContextType {
 }
 //1) creating the user context
 //2)follow up by creating the provider and give it an object
-//3)use the
+//3)use the provider
 export const UserContext = createContext<UserContextType>({
   name: '',
   setName: () => {},
