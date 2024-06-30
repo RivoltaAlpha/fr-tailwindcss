@@ -2,6 +2,7 @@ import  { useContext } from 'react';
 import { UserContext } from '../../context/UserContext';
 
 const Form= () => {
+  
   const { name, setName, age, setAge, email, setEmail, phone, setPhone } = useContext(UserContext);
 
   return (

@@ -14,6 +14,7 @@ const App= () => {
   const [phone, setPhone] = useState<string>("");
 //step 3 of userContext applies here, where we get the user details
   return (
+    // use the provider
     <UserContext.Provider value={{ name, setName, age, setAge, email, setEmail, phone, setPhone }}>
       <div className="min-h-screen flex flex-col">
         <Header />
